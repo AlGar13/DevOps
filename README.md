@@ -12,18 +12,17 @@ For use script "mv-script.sh":
 
 For use script "substringer.sh"
 
-Suppose you have the following string, "Hello, World!" and you want to perform various operations using the substring.sh script.
-Extracting a substring:
-Suppose you want to extract the word "Hello" from the string. In this case, Hello starts with the 1st character and ends with the 5th character. Execute the command:
+ Suppose you have the following string, "Hello, World!" and you want to perform various operations using the substring.sh script.
+ - Extracting a substring:
+   Suppose you want to extract the word "Hello" from the string. In this case, Hello starts with the 1st character and ends with the 5th character. Execute the command:
 
-./substring.sh "Hello, World!" 1 5
-This will give you the output of "Hello".
+   ./substring.sh "Hello, World!" 1 5
+   This will give you the output of "Hello".
 
-Removing a substring:
-Now suppose you want to remove the comma and space following "Hello". The comma and space are from the 6th to 7th characters in the string. Execute the command:
+ - Removing a substring:
+   Now suppose you want to remove the comma and space following "Hello". The comma and space are from the 6th to 7th characters in the string. Execute the command:
 
-./substring.sh "Hello, World!" 6 7 delete
+   ./substring.sh "Hello, World!" 6 7 delete
 
-This will give you a comma- and space-free string: "HelloWorld!".
+   This will give you a comma- and space-free string: "HelloWorld!".
 
-In these examples, we pass the string ("Hello, World!"), the substring's start and end indices, and (in the second case) the word delete to indicate the deletion of the substring. This shows how you can use a script to extract or delete specific parts of a string.
